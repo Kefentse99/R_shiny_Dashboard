@@ -1,0 +1,62 @@
+---
+title: "Yoyko FunOlympics"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(knitr)
+library(DT)
+library(rpivotTable)
+library(ggplot2)
+library(dplyr)
+library(openintro)
+library(highcharter)
+library(readxl)
+```
+
+
+```{r}
+
+```
+
+interactive data visualization
+======================================
+
+Row
+--------------------------------------
+
+### GamesPlayed
+
+```{r}
+
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
+```
+
